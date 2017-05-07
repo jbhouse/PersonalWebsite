@@ -1,1 +1,5 @@
-<h1>hello world</h1>
+{% extends "homepage/header.html" %}
+{% block content %}
+<h2>Hey! Welcome to my website! Well, I wasn't expecting guests.</h2>
+{% include 'homepage/includes/partial.html' %}
+{% endblock %}
