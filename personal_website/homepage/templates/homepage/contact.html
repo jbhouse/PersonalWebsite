@@ -1,0 +1,7 @@
+{% extends "homepage/header.html" %}
+{% block content %}
+  <h1>this is the contact page</h1>
+  {% for c in contact_info %}
+    {{c}}<br>
+  {% endfor %}
+{% endblock %}
